@@ -1,0 +1,19 @@
+{
+    "errors": [
+        {
+            "message": "The custom_args parameter cannot be empty.",
+            "field": "personalizations.0.custom_args",
+            "help": "http://sendgrid.com/docs/API_Reference/Web_API_v3/Mail/errors.html#message.personalizations.custom_args"
+        },
+        {
+            "message": "The custom_args parameter cannot be empty.",
+            "field": "personalizations.1.custom_args",
+            "help": "http://sendgrid.com/docs/API_Reference/Web_API_v3/Mail/errors.html#message.personalizations.custom_args"
+        },
+        {
+            "message": "The to array is required for all personalization objects, and must have at least one email object with a valid email address.",
+            "field": "personalizations.0.to",
+            "help": "http://sendgrid.com/docs/API_Reference/Web_API_v3/Mail/errors.html#message.personalizations.to"
+        }
+    ]
+}
