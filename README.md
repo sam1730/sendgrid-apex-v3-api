@@ -4,8 +4,6 @@ This Apex Toolkit allows you to quickly and easily send emails through [SendGrid
 
 ### Example
 ```java
-SendGridv3 sendgrid = new SendGrid();
-
 Attachment attach = new Attachment();
     attach.Name='Unit Test Attachment';
     Blob bodyBlob=Blob.valueOf('Unit Test Attachment Body');
@@ -21,6 +19,7 @@ Email email = new Email();
     email.setHtml('<h1>Hello World!</h1><br/><h2>This is a test email sent using SendGridAPIv3</h2>');
     email.addAttachment(attach);
 
+SendGridv3 sendgrid = new SendGrid();
 SendGridv3.SendGridResponse response = sendgrid.send(email);
 ```
 
