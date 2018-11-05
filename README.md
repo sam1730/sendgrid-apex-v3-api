@@ -28,7 +28,7 @@ SendGridv3.SendGridResponse response = sendgrid.send(email);
 
 To start using the SendGrid Apex Toolkit in your Salesforce Org, install the unmanaged package of the library with the following URL:
 
-1.1: <https://login.salesforce.com/packaging/installPackage.apexp?p0=04t6A0000038Hjv>
+1.1: <https://login.salesforce.com/packaging/installPackage.apexp?p0=04t6A0000038Hk0>
 
 Click Continue -> Next -> Next -> Install.
 

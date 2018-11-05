@@ -3,7 +3,7 @@
  *
  * @description: Represents a single Email message.
  *
- * @author: Prateek Kumar @ Teqfocus Consulting LLC
+ * @author: Prateek Kumar
  */
 global class Email {	
     
