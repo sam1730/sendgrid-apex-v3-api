@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>Email</members>
+        <members>EmailTest</members>
+        <members>JSONBody</members>
+        <members>JSONBodyTest</members>
+        <members>SendGridResponseMock</members>
+        <members>SendGridv3</members>
+        <members>SendGridv3Test</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>SendGridv3__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>SendGrid</members>
+        <name>RemoteSiteSetting</name>
+    </types>
+    <version>42.0</version>
+</Package>
